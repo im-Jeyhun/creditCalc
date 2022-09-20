@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assests/css/style.css">
+    <title>Credit Calculator</title>
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="con-texts">
+            <h1>Credit Calculator</h1>
+        </div>
+        <form action="">
+
+            <div class="innputt">
+
+                <span id="in-span">Mebleg</span>
+                <input  onfocus="Focus1()" onblur="Blurex()" type="text" id="amount">
+            </div>
+            <div class="innputt">
+
+                <span id="in-span1">Muddet</span>
+                <input onfocus="Focus2()" onblur="Blurey()" type="text" id="period">
+            </div>
+            <div class="innputt">
+
+                <span id="in-span2">Faiz</span>
+                <input onfocus="Focus3()" onblur="Blurez()" type="text" id="rate">
+            </div>
+
+            <button type="button" id="calc" onclick="creditCalc()">HESABLA..</button>
+
+            <div id="total">
+                <h1 id="sum"> </h1>
+            </div>
+
+        </form>
+    </div>
+
+    <script src="/assests/js/app.js"></script>
+</body>
+
+</html>
